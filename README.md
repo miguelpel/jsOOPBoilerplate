@@ -1,18 +1,33 @@
 # Boilerplate for OOP in Javascript
 
-This minimal boilerplate worl with Babel and Webpack to implement a OOP workflow 
+This minimal boilerplate works with Babel and Webpack to implement a OOP workflow.
+ADDED: webpack devlopment server and CSS bundling. 
 
 ## Getting Started
 
-Everything is set up. run:
+Change the package.json, with your project's name.
+
+#### install the npm dependencies:
+
+in the console at the root of the project:
+```javascript
+npm install
+```
+
+#### start de development server:
+
+in the console at the root of the project:
+```javascript
+npm start
+```
+
+#### Bundling your files ready to upload:
+
+in the console at the root of the project:
 ```javascript
 npm run build
 ```
-in the console at the root of the project.
-
-Change the package.json, with your project's name.
-
-Follow the index.js and Component.js templates for creating OOP files in the src folder.
+Follow the index.js, Component.js, and style/app.css templates for creating OOP files in the src folder.
 
 ### Prerequisites and installing
 
